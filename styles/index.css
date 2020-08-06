@@ -1,0 +1,125 @@
+.container-section .back {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.container-section .back i {
+  margin-right: 5px;
+}
+.card-body h1,
+.card-body h2,
+.card-body span,
+.card-body p,
+.card-body a,
+.form-row h1,
+.form-row label {
+  color: #314163;
+  font-size: 50px;
+  font-family: "Oswald", sans-serif;
+}
+
+.card-body h2 {
+  font-size: 35px;
+}
+.card-body span {
+  font-size: 22px;
+}
+.card-body p {
+  font-size: 19px;
+  font-family: "PT Serif", serif;
+}
+
+.card-body a {
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.form-row h2 {
+  font-size: 26px;
+}
+
+.form-row label {
+  font-size: 22px;
+}
+
+.form-row input {
+  max-width: 422px;
+  max-height: 33px;
+}
+.card-body .form-row {
+  border: 1px solid #314163;
+  background-color: rgb(232, 248, 255);
+  padding: 20px;
+  padding-bottom: 42px;
+}
+.card-body form {
+  width: 100%;
+  background-color: rgb(232, 248, 255);
+  max-width: 400px;
+}
+.card-body form button#submitBtn {
+  background-color: #314163;
+  border-radius: 0;
+  margin: 20px;
+  margin-left: calc(100% - 150px);
+}
+
+.btns {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+.btns div {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  width: 100%;
+}
+.btns div button {
+  width: 165px;
+  height: 40px;
+  align-self: flex-start;
+  border-radius: 0;
+  background-color: rgb(17, 133, 175);
+  margin: 0px;
+}
+.btns div p {
+  font-size: 14px;
+}
+
+.card {
+  border: none;
+}
+
+#section-left {
+  margin-top: 127px;
+  background: rgb(49, 65, 99);
+  max-height: 1590px;
+  width: 290px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#section-left img {
+  max-width: 390px;
+  max-height: 390px;
+  margin-right: 190px;
+  margin-bottom: 310px;
+}
+
+#footer {
+  background-color: rgb(0, 121, 193);
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+#footer p {
+  margin-bottom: 0;
+}
+#footer div.footer-copyright {
+  font-size: 11px;
+  font-family: "Oswald", sans-serif;
+}
+
+@media (min-width: 576px) {
+}
